@@ -10,12 +10,7 @@
     ]
   },
   "linter": {
-    "enabled": true,
-    "rules": {
-      "suspicious": {
-        "noConsole": "warn"
-      }
-    }
+    "enabled": true
   },
   "formatter": {
     "enabled": true,
