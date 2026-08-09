@@ -1,10 +1,8 @@
 export function TerminalContent() {
-  const a = 32;
+  const _a = 32;
   const array = ["split", "this text", "into words"];
 
   array.flatMap((item) => item.split(" ")).flat();
-
-  console.log("12331")
 
   return (
     <div className="flex justify-center flex-col w-full h-full">
