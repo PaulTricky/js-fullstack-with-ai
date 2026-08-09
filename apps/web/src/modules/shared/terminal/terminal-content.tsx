@@ -1,4 +1,4 @@
-export function TerminalContent() {
+export function TerminalContent({ folders }: { folders: any[] }) {
   const _a = 32;
   const array = ["split", "this text", "into words"];
 
@@ -11,10 +11,11 @@ export function TerminalContent() {
           <div className="border-r border-gray-700 pr-4">
             <div className="border-b mb-2">Content Filters</div>
             <div>
-              <div>Item 1</div>
-              <div>Item 2</div>
-              <div>Item 3</div>
-              <div>Item 4</div>
+              {folders.map((folder) => (
+                <div key={folder.id} className="mb-1">
+                  {folder.name}
+                </div>
+              ))}
             </div>
           </div>
         </div>

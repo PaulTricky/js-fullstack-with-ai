@@ -1,0 +1,9 @@
+[0m[2m[35m$[0m [2m[1mnext dev[0m
+[1m[38;2;173;127;168m▲ Next.js 16.3.0[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.135:3000
+[32m[1m✓[22m[39m Ready in 303ms
+[32m[1m✓[22m[39m Running next.config.ts took 100ms
+
+ GET /terminal [32m200[39m in 995ms[2m (next.js: 149ms, application-code: 846ms)[22m
+[?25h
