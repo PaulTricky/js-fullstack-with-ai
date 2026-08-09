@@ -4,12 +4,6 @@ export function TerminalContent() {
 
   array.flatMap((item) => item.split(" ")).flat();
 
-  console.log(1);
-  console.log(2);
-  console.log(3);
-  console.log(4);
-  console.log(5);
-
   return (
     <div className="flex justify-center flex-col w-full h-full">
       <div className="bg-gray-900 text-green-500 font-mono p-4 rounded w-full">
