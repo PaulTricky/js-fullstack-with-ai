@@ -1,7 +1,7 @@
 'use client';
 
-import { useCallback, useState } from 'react';
-import { Folder } from '@/generated/api';
+import { useCallback } from 'react';
+import { Folder, useGetFolders } from '@/generated/api';
 import { TerminalFolder } from './terminal-folder';
 import { useQueryState } from 'nuqs';
 import Link from 'next/link';
@@ -10,7 +10,10 @@ function parsePath(path: string): number[] {
   return path.split(',').map(Number).filter(Boolean);
 }
 
-export function TerminalContent({ folders }: { folders: Folder[] }) {
+export function TerminalContent() {
+  const { data } = useGetFolders();
+  const folders = data?.data ?? [];
+
   const [selectedFolderId, setSelectedFolderId] = useQueryState('folder', {
     defaultValue: '',
   });
@@ -97,7 +100,16 @@ export function TerminalContent({ folders }: { folders: Folder[] }) {
                 {notes.map((note) => {
                   const noteFormat = note?.text?.toLocaleLowerCase()?.replace(/[^a-z0-9]+/g, "-").slice(0, 20).replace(/-$/, "");
                   return (
-                  <Link href={`/notes/${note.id}`} className='mb-2'>{noteFormat}</Link>
+                  <Link
+                    key={note.id}
+                    href={{
+                      pathname: `/notes/${note.id}`,
+                      query: selectedFolderId ? { folder: selectedFolderId } : undefined,
+                    }}
+                    className='mb-2'
+                  >
+                    {noteFormat}
+                  </Link>
                 )
                 })}
               </div>

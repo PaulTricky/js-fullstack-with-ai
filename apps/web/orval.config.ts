@@ -7,8 +7,14 @@ export default defineConfig({
     },
     output: {
       target: './src/generated/api.ts',
-      client: 'fetch',
+      client: 'react-query',
+      httpClient: 'fetch',
       baseUrl: 'http://localhost:3001',
+      override: {
+        query: {
+          version: 5,
+        },
+      },
     },
   },
 });

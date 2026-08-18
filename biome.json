@@ -9,7 +9,9 @@
       "!!**/apps/web/public",
       "!!**/apps/api/dist",
       "!!**/apps/api/test",
-      "!!**/generated"
+      "!!**/generated",
+      "!!**/.agents",
+      "!!**/.claude"
     ]
   },
   "linter": {

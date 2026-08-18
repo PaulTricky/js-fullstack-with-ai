@@ -9,6 +9,7 @@
     "generate": "orval --config orval.config.ts"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.101.4",
     "next": "16.3.0",
     "nuqs": "^2.9.6",
     "react": "19.2.8",

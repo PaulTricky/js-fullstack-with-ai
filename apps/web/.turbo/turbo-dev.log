@@ -2791,3 +2791,3438 @@ columns [
     }
   ]
 ] []
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=23 [32m200[39m in 839ms[2m (next.js: 4ms, application-code: 836ms)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information. 
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C37 [32m200[39m in 4.4s[2m (next.js: 16ms, application-code: 4.4s)[22m
+id 56
+ GET /notes/56 [32m200[39m in 300ms[2m (next.js: 8ms, application-code: 291ms)[22m
+
+
+id 56
+ GET /notes/56 [32m200[39m in 42ms[2m (next.js: 17ms, application-code: 26ms)[22m
+id 51
+ GET /notes/51 [32m200[39m in 3.4s[2m (next.js: 24ms, application-code: 3.3s)[22m
+id 56
+ GET /notes/56 [32m200[39m in 22ms[2m (next.js: 8ms, application-code: 14ms)[22m
+[32m[1m✓[22m[39m Compiled in 44ms
+id 56
+ GET /notes/56 [32m200[39m in 14ms[2m (next.js: 4ms, application-code: 11ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 7.2s[2m (next.js: 4ms, application-code: 7.1s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 7.3s[2m (next.js: 6ms, application-code: 7.3s)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 3.8s[2m (next.js: 1.4ms, application-code: 3.8s)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 863ms[2m (next.js: 1.5ms, application-code: 861ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 7.0s[2m (next.js: 2ms, application-code: 7.0s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information. 
+id 51
+ GET /notes/51 [32m200[39m in 324ms[2m (next.js: 5ms, application-code: 319ms)[22m
+[32m[1m✓[22m[39m Compiled in 99ms
+id 56
+ GET /notes/56 [32m200[39m in 36ms[2m (next.js: 9ms, application-code: 27ms)[22m
+id 56
+ GET /notes/56 [32m200[39m in 17ms[2m (next.js: 3ms, application-code: 14ms)[22m
+[32m[1m✓[22m[39m Compiled in 12ms
+id 56
+ GET /notes/56 [32m200[39m in 23ms[2m (next.js: 7ms, application-code: 16ms)[22m
+id 56
+ GET /notes/56 [32m200[39m in 17ms[2m (next.js: 5ms, application-code: 12ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 7.5s[2m (next.js: 25ms, application-code: 7.5s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+id 51
+ GET /notes/51?folder=36 [32m200[39m in 286ms[2m (next.js: 5ms, application-code: 281ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36 [32m200[39m in 870ms[2m (next.js: 3ms, application-code: 867ms)[22m
+id 51
+ GET /notes/51?folder=36 [32m200[39m in 351ms[2m (next.js: 2.0ms, application-code: 349ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36 [32m200[39m in 964ms[2m (next.js: 1.4ms, application-code: 963ms)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m41[39m,
+      name: [32m'Recipes'[39m,
+      parentId: [33m40[39m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m56[39m,
+    text: [32m'Grocery list'[39m,
+    folderId: [33m40[39m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m41[39m,
+      name: [32m'Recipes'[39m,
+      parentId: [33m40[39m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m56[39m,
+    text: [32m'Grocery list'[39m,
+    folderId: [33m40[39m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m
+  }
+]
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=40 [32m200[39m in 3.9s[2m (next.js: 4ms, application-code: 3.9s)[22m
+ GET /terminal?folder=40 [32m200[39m in 5.4s[2m (next.js: 2ms, application-code: 5.4s)[22m
+[31m[1m⨯[22m[39m Error: The destination stream closed early.
+    at [3mignore-listed frames[23m {
+  digest: [32m'2068908683'[39m
+}
+ GET /terminal?folder=40 [32m200[39m in 5.7s[2m (next.js: 10ms, application-code: 5.7s)[22m
+[31m[1m⨯[22m[39m Error: The destination stream closed early.
+    at [3mignore-listed frames[23m {
+  digest: [32m'2068908683'[39m
+}
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+[2mfolders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+][22m[2m[22m
+[2mfolders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+][22m[2m[22m
+id 56
+ GET /notes/56?folder=40 [32m200[39m in 303ms[2m (next.js: 9ms, application-code: 293ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=40 [32m200[39m in 839ms[2m (next.js: 5ms, application-code: 834ms)[22m
+id 51
+ GET /notes/51?folder=36 [32m200[39m in 298ms[2m (next.js: 9ms, application-code: 290ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36 [32m200[39m in 859ms[2m (next.js: 3ms, application-code: 856ms)[22m
+id 55
+ GET /notes/55?folder=36%2C39 [32m200[39m in 334ms[2m (next.js: 7ms, application-code: 327ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 1091ms[2m (next.js: 5ms, application-code: 1086ms)[22m
+id 55
+ GET /notes/55?folder=36%2C39 [32m200[39m in 641ms[2m (next.js: 4ms, application-code: 637ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 1204ms[2m (next.js: 2ms, application-code: 1202ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 24ms[2m (next.js: 7ms, application-code: 16ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 20ms[2m (next.js: 4ms, application-code: 16ms)[22m
+id 58
+ GET /notes/58 [32m200[39m in 3.6s[2m (next.js: 13ms, application-code: 3.6s)[22m
+[36m[browser][39m [31m⨯ unhandledRejection: TypeError: Failed to fetch[39m
+[31m    at updateNote (src/generated/api.ts:222:21)
+    at <unknown> (src/modules/notes/note-page-content.tsx:35:17)[39m
+  [90m220 |[0m     updateNoteDto: [33mUpdateNoteDto[0m, options?: [33mRequestInit[0m): [33mPromise[0m<updateNoteResponse> => {
+  [90m221 |[0m
+[31m[1m>[0m [90m222 |[0m   [36mconst[0m res = [36mawait[0m fetch(getUpdateNoteUrl(id),
+  [90m    |[0m                     [31m[1m^[0m
+  [90m223 |[0m   {
+  [90m224 |[0m     ...options,
+  [90m225 |[0m     method: [32m'PATCH'[0m,
+id 58
+ GET /notes/58 [32m200[39m in 3.5s[2m (next.js: 8ms, application-code: 3.4s)[22m
+id 55
+ GET /notes/55?folder=36%2C39 [32m200[39m in 3.4s[2m (next.js: 16ms, application-code: 3.4s)[22m
+id 55
+ GET /notes/55?folder=36%2C39 [32m200[39m in 3.3s[2m (next.js: 23ms, application-code: 3.3s)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/notes/55" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 4.3s[2m (next.js: 22ms, application-code: 4.3s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+id 55
+ GET /notes/55?folder=36%2C39 [32m200[39m in 301ms[2m (next.js: 10ms, application-code: 291ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 4.2s[2m (next.js: 4ms, application-code: 4.2s)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2026-08-05'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2026-08-05'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36%2C39 [32m200[39m in 7.3s[2m (next.js: 5ms, application-code: 7.3s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+id 55
+ GET /notes/55?folder=36%2C39 [32m200[39m in 359ms[2m (next.js: 11ms, application-code: 348ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 4.5s[2m (next.js: 5ms, application-code: 4.5s)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 33ms[2m (next.js: 7ms, application-code: 27ms)[22m
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/get-query-client.ts:1:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { [33mQueryClient[0m, isServer } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mfunction[0m makeQueryClient() {
+  [90m4 |[0m   [36mreturn[0m [36mnew[0m [33mQueryClient[0m({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component Browser]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./apps/web/src/modules/shared/query/get-query-client.ts [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Client Component SSR]
+    ./apps/web/src/modules/shared/query/query-provider.tsx [Server Component]
+    ./apps/web/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./apps/web/src/modules/shared/query/query-provider.tsx:3:1
+[1m[31mError[39m: [1m[31mModule not found[39m[22m[1m: Can't resolve [32m'@tanstack/react-query'[39m[22m
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mQueryClientProvider[0m } [36mfrom[0m [32m"@tanstack/react-query"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { getQueryClient } [36mfrom[0m [32m"./get-query-client"[0m;
+  [90m5 |[0m
+  [90m6 |[0m [36mexport[0m [36mfunction[0m [33mQueryProvider[0m({ children }: { children: [33mReact[0m.[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/src/modules/shared/query/query-provider.tsx
+    ./apps/web/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32m[1m✓[22m[39m Compiled in 183ms
+[32m[1m✓[22m[39m Compiled in 163ms
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 50ms[2m (next.js: 17ms, application-code: 33ms)[22m
+[32m[1m✓[22m[39m Compiled in 69ms
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 50ms[2m (next.js: 15ms, application-code: 35ms)[22m
+folders [
+  {
+    id: [33m36[39m,
+    name: [32m'Work'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m, [36m[Object][39m ]
+  },
+  {
+    id: [33m40[39m,
+    name: [32m'Personal'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+    notes: [ [36m[Object][39m ],
+    children: [ [36m[Object][39m ]
+  },
+  {
+    id: [33m42[39m,
+    name: [32m'Archive'[39m,
+    parentId: [1mnull[22m,
+    createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+    notes: [],
+    children: []
+  }
+]
+ GET /terminal?folder=36%2C39 [32m200[39m in 27ms[2m (next.js: 9ms, application-code: 19ms)[22m
+ GET /terminal?folder=36%2C39 [32m200[39m in 77ms[2m (next.js: 15ms, application-code: 62ms)[22m
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+[32m[1m✓[22m[39m Compiled in 25ms
+[31m[1m⨯[22m[39m TypeError: current.find is not a function
+    at eval (src/modules/shared/terminal/terminal-content.tsx:26:32)
+    at TerminalContent (src/modules/shared/terminal/terminal-content.tsx:54:19)
+  [90m24 |[0m
+  [90m25 |[0m     [36mfor[0m ([36mlet[0m i = [35m0[0m; i < path?.length; i++) {
+[31m[1m>[0m [90m26 |[0m       [36mconst[0m selected = current.find((f) => f.id === path[i]);
+  [90m   |[0m                                [31m[1m^[0m
+  [90m27 |[0m       [36mif[0m (!selected?.children?.length) [36mbreak[0m;
+  [90m28 |[0m       columns.push(selected?.children);
+  [90m29 |[0m       current = selected?.children; {
+  digest: [32m'3471541411'[39m
+}
+ GET /terminal?folder=36%2C39 [31m500[39m in 7.6s[2m (next.js: 7ms, application-code: 7.6s)[22m
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2039-08-05'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2039-08-05'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36%2C39 [32m200[39m in 3.8s[2m (next.js: 9ms, application-code: 3.8s)[22m
+ GET /terminal?folder=36%2C39 [32m200[39m in 21ms[2m (next.js: 4ms, application-code: 17ms)[22m
+ GET /terminal?folder=36%2C39 [32m200[39m in 23ms[2m (next.js: 4ms, application-code: 19ms)[22m
+ GET /terminal?folder=36%2C39 [32m200[39m in 26ms[2m (next.js: 11ms, application-code: 15ms)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2039-08-05'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2039-08-05'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36%2C39 [32m200[39m in 4.0s[2m (next.js: 5ms, application-code: 4.0s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ]
+] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal [32m200[39m in 7.4s[2m (next.js: 7ms, application-code: 7.4s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+ GET /notes/51?folder=36 [32m200[39m in 321ms[2m (next.js: 21ms, application-code: 300ms)[22m
+ GET /terminal?folder=36 [32m200[39m in 819ms[2m (next.js: 3ms, application-code: 816ms)[22m
+ GET /notes/55?folder=36%2C39 [32m200[39m in 326ms[2m (next.js: 15ms, application-code: 311ms)[22m
+ GET /terminal?folder=36%2C39 [32m200[39m in 3.8s[2m (next.js: 6ms, application-code: 3.8s)[22m
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2039-08-08'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+columns [
+  [
+    {
+      id: [33m36[39m,
+      name: [32m'Work'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m40[39m,
+      name: [32m'Personal'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:54.274Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m42[39m,
+      name: [32m'Archive'[39m,
+      parentId: [1mnull[22m,
+      createdAt: [32m'2026-08-18T02:57:56.035Z'[39m,
+      notes: [],
+      children: []
+    }
+  ],
+  [
+    {
+      id: [33m37[39m,
+      name: [32m'Projects 1'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: [36m[Array][39m
+    },
+    {
+      id: [33m39[39m,
+      name: [32m'Meetings'[39m,
+      parentId: [33m36[39m,
+      createdAt: [32m'2026-08-18T02:57:50.688Z'[39m,
+      notes: [36m[Array][39m,
+      children: []
+    }
+  ]
+] [
+  {
+    id: [33m55[39m,
+    text: [32m'Standup 2039-08-08'[39m,
+    folderId: [33m39[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  }
+]
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36%2C39 [32m200[39m in 7.2s[2m (next.js: 11ms, application-code: 7.1s)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+ GET /terminal?folder=36%2C39 [32m200[39m in 58ms[2m (next.js: 34ms, application-code: 25ms)[22m
+columns [ [] ] []
+columns [ [] ] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36%2C39 [32m200[39m in 46ms[2m (next.js: 7ms, application-code: 39ms)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+columns [ [] ] []
+columns [ [] ] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36%2C39 [32m200[39m in 39ms[2m (next.js: 4ms, application-code: 34ms)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/terminal" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+ GET /notes/51?folder=36 [32m200[39m in 315ms[2m (next.js: 13ms, application-code: 301ms)[22m
+ GET /terminal?folder=36 [32m200[39m in 28ms[2m (next.js: 3ms, application-code: 25ms)[22m
+ GET /notes/51?folder=36 [32m200[39m in 331ms[2m (next.js: 8ms, application-code: 323ms)[22m
+ GET /terminal?folder=36 [32m200[39m in 28ms[2m (next.js: 4ms, application-code: 25ms)[22m
+ GET /terminal?folder=36 [32m200[39m in 23ms[2m (next.js: 7ms, application-code: 16ms)[22m
+ GET /notes/51?folder=36 [32m200[39m in 3.6s[2m (next.js: 11ms, application-code: 3.6s)[22m
+ GET /terminal?folder=36 [32m200[39m in 4.4s[2m (next.js: 4ms, application-code: 4.4s)[22m
+ GET /terminal?folder=36 [32m200[39m in 31ms[2m (next.js: 13ms, application-code: 18ms)[22m
+[31m[1m⨯[22m[39m ReferenceError: queryClient is not defined
+    at TerminalPage (src/app/terminal/page.tsx:13:43)
+  [90m11 |[0m     <div className=[32m"flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black"[0m>
+  [90m12 |[0m       <h1 className=[32m"text-4xl font-bold"[0m>[33mTerminal[0m [33mPage[0m</h1>
+[31m[1m>[0m [90m13 |[0m       <[33mHydrationBoundary[0m state={dehydrate(queryClient)}>
+  [90m   |[0m                                           [31m[1m^[0m
+  [90m14 |[0m         <[33mTerminalContent[0m />
+  [90m15 |[0m       </[33mHydrationBoundary[0m>
+  [90m16 |[0m     </div> {
+  digest: [32m'890023597'[39m
+}
+ GET /terminal?folder=36 [32m200[39m in 21ms[2m (next.js: 6ms, application-code: 15ms)[22m
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+columns [ [] ] []
+columns [ [] ] []
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TerminalContent`. See https://react.dev/link/warning-keys for more information.
+ GET /terminal?folder=36 [32m200[39m in 49ms[2m (next.js: 5ms, application-code: 45ms)[22m
+[36m[browser][39m Each child in a list should have a unique "key" prop.
+
+Check the render method of `div`. It was passed a child from TerminalContent. See https://react.dev/link/warning-keys for more information. 
+ GET /notes/51?folder=36 [32m200[39m in 3.4s[2m (next.js: 16ms, application-code: 3.4s)[22m
+ GET /notes/51?folder=36 [32m200[39m in 42ms[2m (next.js: 10ms, application-code: 32ms)[22m
+ GET /terminal?folder=36 [32m200[39m in 20ms[2m (next.js: 4ms, application-code: 16ms)[22m
+ GET /notes/51?folder=36 [32m200[39m in 3.7s[2m (next.js: 6ms, application-code: 3.7s)[22m
+[32m[1m✓[22m[39m Compiled in 35ms
+ GET /notes/51?folder=36 [32m200[39m in 85ms[2m (next.js: 5ms, application-code: 80ms)[22m
+ GET /terminal?folder=36 [32m200[39m in 27ms[2m (next.js: 9ms, application-code: 18ms)[22m
+ GET /notes/51?folder=36 [32m200[39m in 2.9s[2m (next.js: 8ms, application-code: 2.8s)[22m
+ GET /notes/51?folder=36 [32m200[39m in 95ms[2m (next.js: 17ms, application-code: 78ms)[22m
+data 23232 {
+  data: {
+    id: [33m51[39m,
+    text: [32m'Q3 planning kick3'[39m,
+    folderId: [33m36[39m,
+    createdAt: [32m'2026-08-18T02:57:50.688Z'[39m
+  },
+  status: [33m200[39m,
+  headers: [
+    [ [32m'access-control-allow-origin'[39m, [32m'http://localhost:3000'[39m ],
+    [ [32m'connection'[39m, [32m'keep-alive'[39m ],
+    [ [32m'content-length'[39m, [32m'89'[39m ],
+    [ [32m'content-type'[39m, [32m'application/json; charset=utf-8'[39m ],
+    [ [32m'date'[39m, [32m'Tue, 18 Aug 2026 07:48:12 GMT'[39m ],
+    [ [32m'etag'[39m, [32m'W/"59-DV/8yp3TuT+Ht+/BvwtGmZH5QJA"'[39m ],
+    [ [32m'keep-alive'[39m, [32m'timeout=5'[39m ],
+    [ [32m'vary'[39m, [32m'Origin'[39m ],
+    [ [32m'x-powered-by'[39m, [32m'Express'[39m ]
+  ]
+}
+ GET /notes/51?folder=36 [32m200[39m in 3.5s[2m (next.js: 20ms, application-code: 3.5s)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/notes/51" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__varia..."
+                        >
+                  ...
+ 
+[?25h
