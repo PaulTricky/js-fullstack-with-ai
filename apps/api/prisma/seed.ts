@@ -1,5 +1,5 @@
-import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "../src/generated/prisma/client";
+import { PrismaPg } from '@prisma/adapter-pg';
+import { PrismaClient } from '../src/generated/prisma/client';
 
 const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
 const prisma = new PrismaClient({ adapter });
@@ -10,25 +10,25 @@ async function main() {
 
   await prisma.folder.create({
     data: {
-      name: "Work",
+      name: 'Work',
       notes: {
-        create: [{ text: "Q3 planning kickoff" }],
+        create: [{ text: 'Q3 planning kickoff' }],
       },
       children: {
         create: [
           {
-            name: "Projects",
+            name: 'Projects 1',
             notes: {
-              create: [{ text: "Define project scope" }],
+              create: [{ text: 'Define project scope' }],
             },
             children: {
               create: [
                 {
-                  name: "Website Redesign",
+                  name: 'Website Redesign',
                   notes: {
                     create: [
-                      { text: "Wireframes v1 due Friday" },
-                      { text: "Client feedback: prefers blue palette" },
+                      { text: 'Wireframes v1 due Friday' },
+                      { text: 'Client feedback: prefers blue palette' },
                     ],
                   },
                 },
@@ -36,9 +36,9 @@ async function main() {
             },
           },
           {
-            name: "Meetings",
+            name: 'Meetings',
             notes: {
-              create: [{ text: "Standup notes 2026-08-04" }],
+              create: [{ text: 'Standup notes 2026-08-04' }],
             },
           },
         ],
@@ -48,18 +48,18 @@ async function main() {
 
   await prisma.folder.create({
     data: {
-      name: "Personal",
+      name: 'Personal',
       notes: {
-        create: [{ text: "Grocery list" }],
+        create: [{ text: 'Grocery list' }],
       },
       children: {
         create: [
           {
-            name: "Recipes",
+            name: 'Recipes',
             notes: {
               create: [
-                { text: "Pasta carbonara recipe" },
-                { text: "Sourdough starter feeding schedule" },
+                { text: 'Pasta carbonara recipe' },
+                { text: 'Sourdough starter feeding schedule' },
               ],
             },
           },
@@ -68,12 +68,12 @@ async function main() {
     },
   });
 
-  await prisma.folder.create({ data: { name: "Archive" } });
+  await prisma.folder.create({ data: { name: 'Archive' } });
 
   await prisma.note.createMany({
     data: [
-      { text: "Random idea: build a note-taking app" },
-      { text: "Remember to renew passport" },
+      { text: 'Random idea: build a note-taking app' },
+      { text: 'Remember to renew passport' },
     ],
   });
 
